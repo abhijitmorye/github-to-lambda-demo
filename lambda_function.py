@@ -11,5 +11,3 @@ def lambda_handler(event, context):
 
     dataframe = pd.DataFrame(data)
     print(dataframe)
-
-lambda_handler('a', 'b')
